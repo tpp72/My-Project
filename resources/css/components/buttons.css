@@ -1,0 +1,9 @@
+.btn-red{
+  background: var(--red);
+  border-color: var(--red);
+}
+
+.btn-red:hover{
+  background: var(--red2);
+  border-color: var(--red2);
+}

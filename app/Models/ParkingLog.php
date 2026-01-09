@@ -18,4 +18,9 @@ class ParkingLog extends Model
     {
         return $this->hasMany(Payment::class);
     }
+
+    public function penalties()
+    {
+        return $this->hasMany(\App\Models\Penalty::class);
+    }
 }

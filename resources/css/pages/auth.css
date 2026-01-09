@@ -1,0 +1,85 @@
+/* pages/auth.css: styles เฉพาะหน้า login/register */
+
+.auth-wrap{
+  min-height: calc(100vh - 70px);
+  display: grid;
+  place-items: center;
+  padding: 28px 0 40px;
+}
+
+.auth-card{
+  max-width: 980px;
+  width: 100%;
+}
+
+.auth-panel{
+  background: linear-gradient(180deg, rgba(229,9,20,.16), transparent 55%), var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+
+.auth-left{
+  padding: 28px;
+  border-right: 1px solid var(--border);
+  background:
+    radial-gradient(700px 320px at 20% 0%, rgba(229,9,20,.20), transparent 60%),
+    rgba(0,0,0,.08);
+}
+
+.auth-right{
+  padding: 28px;
+}
+
+.form-control,
+.form-select{
+  background: rgba(255,255,255,.04);
+  border: 1px solid var(--border);
+  color: var(--text);
+}
+
+.form-control:focus,
+.form-select:focus{
+  background: rgba(255,255,255,.06);
+  border-color: rgba(229,9,20,.6);
+  box-shadow: 0 0 0 .2rem rgba(229,9,20,.18);
+  color: var(--text);
+}
+
+.form-label{
+  color: var(--muted);
+  font-size: .9rem;
+}
+
+.form-text{
+  color: var(--muted);
+}
+
+.auth-title{
+  font-weight: 800;
+}
+
+.auth-sub{
+  color: var(--muted);
+}
+
+.auth-link{
+  color: #ffb3b7;
+  text-decoration: none;
+}
+
+.auth-link:hover{
+  color: #ffd1d3;
+  text-decoration: underline;
+}
+
+.alert-auth{
+  background: rgba(229,9,20,.10);
+  border: 1px solid rgba(229,9,20,.35);
+  color: #ffd1d3;
+}
+
+.hr-soft{
+  border-color: var(--border);
+}

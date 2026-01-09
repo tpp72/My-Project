@@ -1,0 +1,24 @@
+body{
+  background:
+    radial-gradient(1000px 400px at 20% 0%, rgba(229,9,20,.25), transparent 60%),
+    radial-gradient(900px 350px at 100% 10%, rgba(229,9,20,.18), transparent 55%),
+    var(--bg);
+  color: var(--text);
+}
+
+a{ color: inherit; }
+
+.text-muted2{ color: var(--muted); }
+
+.navbar{
+  background: rgba(0,0,0,.35);
+  border-bottom: 1px solid var(--border);
+  backdrop-filter: blur(8px);
+}
+
+.footer{
+  border-top: 1px solid var(--border);
+  color: var(--muted);
+  padding: 24px 0;
+  margin-top: 30px;
+}

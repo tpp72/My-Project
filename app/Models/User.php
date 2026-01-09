@@ -45,4 +45,19 @@ class User extends Authenticatable
             'password' => 'hashed',
         ];
     }
+
+    public function adminActions()
+    {
+        return $this->hasMany(\App\Models\AdminAction::class, 'admin_id');
+    }
+
+    public function suspiciousVehiclesAdded()
+    {
+        return $this->hasMany(\App\Models\SuspiciousVehicle::class, 'added_by');
+    }
+
+    public function notifications()
+    {
+        return $this->hasMany(\App\Models\Notification::class);
+    }
 }

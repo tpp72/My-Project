@@ -12,4 +12,14 @@ class ParkingLot extends Model
         'total_slots',
         'hourly_rate',
     ];
+
+    public function parkingRates()
+    {
+        return $this->hasMany(\App\Models\ParkingRate::class);
+    }
+
+    public function entryExitDevices()
+    {
+        return $this->hasMany(\App\Models\EntryExitDevice::class);
+    }
 }

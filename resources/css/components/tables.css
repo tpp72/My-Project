@@ -1,0 +1,6 @@
+.table-darkish{
+  --bs-table-bg: transparent;
+  --bs-table-striped-bg: rgba(255,255,255,.03);
+  --bs-table-color: var(--text);
+  --bs-table-border-color: var(--border);
+}
