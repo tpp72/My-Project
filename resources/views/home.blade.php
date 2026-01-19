@@ -29,7 +29,6 @@
                 </ul>
 
                 <div class="d-flex gap-2 ms-lg-3 mt-3 mt-lg-0">
-                    {{-- ถ้าคุณใช้ Laravel Breeze/Fortify/Jetstream ปุ่มเหล่านี้จะไป route /login /register ได้ --}}
                     <a class="btn btn-outline-light" href="/login">Login</a>
                     <a class="btn btn-red" href="/register">Register</a>
                 </div>
