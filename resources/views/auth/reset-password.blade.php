@@ -45,7 +45,7 @@
 
                         <div class="mb-3">
                             <label class="form-label">Email</label>
-                            <input class="form-control" value="{{ old('email', $request->email) }}" disabled>
+                            <input class="form-control text-muted" value="{{ old('email', $request->email) }}" disabled>
                         </div>
 
                         <div class="mb-3">
@@ -60,9 +60,7 @@
                                 autocomplete="new-password" placeholder="••••••••">
                         </div>
 
-                        <button type="submit" class="btn btn-red btn-lg w-100">
-                            Reset password
-                        </button>
+                        <button type="submit" class="btn btn-red btn-lg w-100">Reset password</button>
                     </form>
                 </div>
             </div>

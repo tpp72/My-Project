@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ $title ?? 'SmartParking' }}</title>
+    <link rel="icon" href="{{ asset('favicon.ico?v=2') }}">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     @vite(['resources/css/app.css', 'resources/js/app.js'])
@@ -71,9 +72,8 @@
     </main>
 
     <footer class="footer mt-auto">
-        <div class="container d-flex flex-wrap justify-content-between gap-2">
-            <div>© {{ date('Y') }} SmartParking</div>
-            <div class="text-muted2">Admin + User System</div>
+        <div class="container d-flex flex-wrap justify-content-center gap-2">
+            <div>© {{ date('Y') }} SmartParking Admin & User System</div>
         </div>
     </footer>
 
